@@ -1,0 +1,40 @@
+# ──────────────────────────────────────────────
+# Python cache
+# ──────────────────────────────────────────────
+**/__pycache__/
+*.pyc
+*.pyo
+
+# ──────────────────────────────────────────────
+# Folder 1 — Transcripts (generated .srt output)
+# ──────────────────────────────────────────────
+1/*.srt
+
+# ──────────────────────────────────────────────
+# Folder 2 — Clip analysis output
+# ──────────────────────────────────────────────
+2/clip_durations.txt
+
+# ──────────────────────────────────────────────
+# Folder 3 — Downloaded videos (keep folder via .gitkeep)
+# ──────────────────────────────────────────────
+3/downloads/*
+!3/downloads/.gitkeep
+
+# ──────────────────────────────────────────────
+# Folder 4 — Exported clips (keep folder via .gitkeep)
+# ──────────────────────────────────────────────
+4/clips/*
+!4/clips/.gitkeep
+
+# ──────────────────────────────────────────────
+# Folder 5 — Reframed vertical clips (keep folder via .gitkeep)
+# ──────────────────────────────────────────────
+5/vertical_clips/*
+!5/vertical_clips/.gitkeep
+
+# ──────────────────────────────────────────────
+# Folder 6 — Captioned final clips (keep folder via .gitkeep)
+# ──────────────────────────────────────────────
+6/captioned_clips/*
+!6/captioned_clips/.gitkeep

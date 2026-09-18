@@ -1,0 +1,19 @@
+{
+  "source_width": 1920,
+  "source_height": 1080,
+  "output_width": 1080,
+  "output_height": 1920,
+  "crop_width": 608,
+  "crop_height": 1080,
+  "default_speaker": "guest",
+  "speakers": {
+    "guest": {
+      "crop_x": 0,
+      "crop_y": 0
+    },
+    "host": {
+      "crop_x": 1312,
+      "crop_y": 0
+    }
+  }
+}
